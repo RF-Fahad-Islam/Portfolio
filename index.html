@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <script src="https://kit.fontawesome.com/e95cfe6d79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        @media screen and (max-width: 600px) {
+            #sBox{
+                flex-wrap: wrap-reverse;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+
+            <b class="brand animate___animated animate__fadeInDown">PortFolio</b>
+            <ul class="list-items">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#s2">Contact</a></li>
+            </ul>
+            <button class="btn animate__animated animate__pulse" id="downbtn">Download CV <i class="fa-solid fa-down-to-line"></i></button>
+        </nav>
+        <div class="sBox">
+
+            <section class="sLeft">
+                <p class="animate___animated animate__fadeInDown">Hello, I'm</p>
+                <div class="typewriter">
+                    <h1 class="name animate__animated animate__bounceInLeft">Riyad Al <b style="color: red;">Fahad</b></h1>
+                </div>
+                <h4 class="tagline animate___animated animate__fadeInDown">A programmer, student</h4>
+                <h6 style="margin: 7px 0; font-size: 20px;">
+                    Voluptas error, eveniet quos fuga cumque voluptate esse accusamus nemo enim officiis a deserunt
+                    debitis ea soluta asperiores. Dolor qui dolore autem consequuntur ipsum culpa, veritatis sit tempore
+                    
+                </h6>
+                <button class="exploreBtn animate__heartBeat" style="font-size:1.4rem;--animate-duration:2s; animation-iteration-count:1;"><b>Explore</b></button>
+            </section>
+            <section class="sRight">
+                <img class="animate__animated  animate__pulse" style="width: 30vw; border-radius: 50px;" rounded src="img.png" alt="">
+            </section>
+        </div>
+        </div>
+        <section id="s2" style="height: 100vh;margin:22px auto;background:rgba(255, 255, 255, 0);">
+            <div class="contactForm" style="margin: auto">
+                <h1 style="text-align: center;">Contact Form</h1>
+                <input id="name" type="text" placeholder="Name">
+                <input id="email" type="email" placeholder="Email">
+                <button class="btn" style="font-size:1.2rem;display: block; margin: auto;">Submit</button>
+            </div>
+        </section>
+
+
+    <div></div>
+    <div></div>
+</body>
+
+</html>
